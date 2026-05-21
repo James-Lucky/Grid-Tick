@@ -1,4 +1,3 @@
-import CalltoAction from "@/components/LandingPage/CalltoAction";
 import BentoGrid from "@/components/LandingPage/BentoGrid";
 import Home from "@/components/LandingPage/Home";
 import Testimonial from "@/components/LandingPage/Testimonial";
@@ -14,7 +13,6 @@ const page = () => {
       <Work />
       <BentoGrid />
       <Testimonial/>
-      <CalltoAction/>
       <About/>
     </>
   );
