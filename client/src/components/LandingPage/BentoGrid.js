@@ -1,5 +1,3 @@
-// app/page.js
-
 import {
   Check,
   Activity,
