@@ -119,7 +119,7 @@ export default function HomePage() {
             {/* BOTTOM */}
             <div className="grid lg:grid-cols-[1.2fr_1fr] gap-5">
               {/* FEATURES */}
-              <div className="border border-white/10 rounded-[28px] p-5 bg-black">
+              <div className="border border-black/10 rounded-[28px] p-5 bg-white text-black">
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
                   <FeatureCard
                     icon={<Activity size={28} />}
@@ -303,8 +303,8 @@ export default function HomePage() {
 
 function FeatureCard({ icon, title }) {
   return (
-    <div className="border border-white/10 rounded-[20px] aspect-square flex flex-col items-center justify-center gap-3">
-      <div className="text-white">{icon}</div>
+    <div className="border border-black/10 bg-white text-black rounded-[20px] aspect-square flex flex-col items-center justify-center gap-3">
+      <div className="text-black">{icon}</div>
 
       <p className="text-sm md:text-base font-medium">
         {title}
@@ -317,7 +317,7 @@ function StoreButton({ icon, title, subtitle }) {
   return (
     <div className="flex items-center justify-between">
       <div className="flex items-center gap-4">
-        <div className="w-12 h-12 rounded-xl bg-black text-white flex items-center justify-center text-2xl">
+        <div className="w-12 h-12 rounded-xl bg-white text-black flex items-center justify-center text-2xl">
           {icon}
         </div>
 
